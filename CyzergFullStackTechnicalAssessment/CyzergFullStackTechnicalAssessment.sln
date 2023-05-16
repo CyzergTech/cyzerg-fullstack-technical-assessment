@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C4058E0C-5EFA-4142-8E1D-00F2DC35EBCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{BD94F010-3B5A-406A-BF71-C00EAB5F2931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyzerg.TA.API", "API\Cyzerg.TA.API\Cyzerg.TA.API.csproj", "{EA9767EC-39B3-4108-BBEF-D9809478361A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyzerg.TA.BusinessService", "API\Cyzerg.TA.BusinessService\Cyzerg.TA.BusinessService.csproj", "{6B1524B8-9082-4CCC-8489-C1B78BE14295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA9767EC-39B3-4108-BBEF-D9809478361A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9767EC-39B3-4108-BBEF-D9809478361A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9767EC-39B3-4108-BBEF-D9809478361A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9767EC-39B3-4108-BBEF-D9809478361A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1524B8-9082-4CCC-8489-C1B78BE14295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1524B8-9082-4CCC-8489-C1B78BE14295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1524B8-9082-4CCC-8489-C1B78BE14295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1524B8-9082-4CCC-8489-C1B78BE14295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA9767EC-39B3-4108-BBEF-D9809478361A} = {C4058E0C-5EFA-4142-8E1D-00F2DC35EBCB}
+		{6B1524B8-9082-4CCC-8489-C1B78BE14295} = {C4058E0C-5EFA-4142-8E1D-00F2DC35EBCB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64FF7801-C0C9-4692-958A-ECBF41D24103}
+	EndGlobalSection
+EndGlobal
