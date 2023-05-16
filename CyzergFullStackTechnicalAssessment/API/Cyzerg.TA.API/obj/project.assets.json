@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Cyzerg.TA.BusinessService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cyzerg.TA.BusinessService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cyzerg.TA.BusinessService.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cyzerg.TA.BusinessService/1.0.0": {
+      "type": "project",
+      "path": "../Cyzerg.TA.BusinessService/Cyzerg.TA.BusinessService.csproj",
+      "msbuildProject": "../Cyzerg.TA.BusinessService/Cyzerg.TA.BusinessService.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Cyzerg.TA.BusinessService >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\01_Code\\TA code\\cyzerg-fullstack-technical-assessment\\CyzergFullStackTechnicalAssessment\\API\\Cyzerg.TA.BusinessService\\Cyzerg.TA.BusinessService.csproj": {
+              "projectPath": "F:\\01_Code\\TA code\\cyzerg-fullstack-technical-assessment\\CyzergFullStackTechnicalAssessment\\API\\Cyzerg.TA.BusinessService\\Cyzerg.TA.BusinessService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
