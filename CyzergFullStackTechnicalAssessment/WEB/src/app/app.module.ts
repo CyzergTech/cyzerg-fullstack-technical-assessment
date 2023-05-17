@@ -5,8 +5,6 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ArticlesComponent } from './articles/articles.component';
-import { ArticleComponent } from './article/article.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -17,7 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
     ReactiveFormsModule,
     AppRoutingModule
   ],
-  declarations: [AppComponent, ArticlesComponent, ArticleComponent],
+  declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
